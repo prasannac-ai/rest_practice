@@ -1,0 +1,26 @@
+# Node.js
+backend/node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+python_api/venv/
+python_api/__pycache__/
+python_api/*.pyc
+python_api/*.pyo
+python_api/*.db
+
+# Databases
+backend/todos.db
+python_api/todos.db
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp 
