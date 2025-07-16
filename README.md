@@ -1,16 +1,46 @@
 # TODO Project
 
-- To start the backend (Node.js):
+## Backend (Node.js/Express)
+- Install dependencies:
   ```
-  cd backend && npm start
+  cd backend && npm install
+  ```
+- To start:
+  ```
+  npm start
   ```
 
-- To start the frontend (React):
+## Frontend (React)
+- Install dependencies:
   ```
-  cd frontend && npm start
+  cd frontend && npm install
+  ```
+- To start:
+  ```
+  npm start
   ```
 
-- To start the Python API (FastAPI):
+## Python API (FastAPI)
+- Install dependencies (recommended in a virtual environment):
   ```
-  cd python_api && uvicorn app:app --reload --port 8888
+  cd python_api
+  python -m venv venv
+  source venv/bin/activate  # On Windows use venv\Scripts\activate
+  pip install fastapi uvicorn pydantic sqlite3
+  ```
+- To start:
+  ```
+  uvicorn app:app --reload --port 8888
+  ```
+
+## NestJS API
+- Install dependencies:
+  ```
+  cd nest_api
+  npm install
+  npm install @nestjs/typeorm typeorm sqlite3
+  ```
+- To start:
+  ```
+  npm run start:dev
   ``` 
