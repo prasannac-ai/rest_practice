@@ -32,15 +32,3 @@
   ```
   uvicorn app:app --reload --port 8888
   ```
-
-## NestJS API
-- Install dependencies:
-  ```
-  cd nest_api
-  npm install
-  npm install @nestjs/typeorm typeorm sqlite3
-  ```
-- To start:
-  ```
-  npm run start:dev
-  ``` 
